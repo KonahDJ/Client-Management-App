@@ -1,0 +1,31 @@
+
+
+h3 {
+    margin: 8px;
+}
+
+table, th, td {
+    border: 2px black solid;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 8px;
+    width: auto;
+    padding: 12px;
+}
+
+
+
+input {
+    background-color: oldlace;
+    border-radius: 24px;
+}
+
+.table-heads {
+    background-color: cornflowerblue;
+}
+
+.client-table {
+    background-color: beige;
+}
+
+

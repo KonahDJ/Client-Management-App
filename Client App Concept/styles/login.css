@@ -1,0 +1,33 @@
+div {
+    padding: 16px;
+    background-color: #e5e5e5;
+    border-radius: 12px;
+}
+input[type="text"] {
+    width: auto;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 8px;
+}
+input[type="password"] {
+    width: auto;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 8px;
+}
+input[type="submit"] {
+    width: auto;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    border: 1px solid #7a7373;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 8px;
+}

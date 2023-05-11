@@ -1,0 +1,24 @@
+
+
+h3 {
+    margin: 8px;
+}
+
+table, th, td {
+    border: 2px black solid;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 8px;
+    width: auto;
+    padding: 12px;
+}
+
+.meeting-table {
+    background-color: cornsilk;
+}
+
+.table-heads {
+    background-color: burlywood;
+}
+
+

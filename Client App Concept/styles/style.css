@@ -1,0 +1,61 @@
+body {
+    background-color: lightgray;
+}
+
+
+
+ul {
+    list-style-type: none;
+    font-size: large;
+    overflow: hidden;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    float: left;
+    margin-right: 8px;
+}
+
+li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color:thistle
+}
+
+h1, h3 {
+    margin: 8px;
+}
+
+table, th, td {
+    border: 2px black solid;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 8px;
+    width: auto;
+    padding: 12px;
+}
+
+input {
+    background-color: oldlace;
+    border-radius: 24px;
+}
+
+.client-table {
+    background-color: beige;
+}
+
+.meeting-table {
+    background-color: cornsilk;
+}
+
+.table-heads {
+    background-color: burlywood;
+}

@@ -1,0 +1,28 @@
+
+
+<h3>Here are your Scheduled Meetings</h3>
+<div>
+<table>
+    <thead>
+        <tr class='table-heads'>
+            <th>sid</th>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Project</th>
+            <th>Meeting</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor='let schedule of schedules'>
+            <td>{{schedule.sid}}</td>
+            <td>{{schedule.name}}</td>
+            <td>{{schedule.company}}</td>
+            <td>{{schedule.project}}</td>
+            <td>{{schedule.meeting}}</td>
+            <td><button type="button">Cancel</button></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
