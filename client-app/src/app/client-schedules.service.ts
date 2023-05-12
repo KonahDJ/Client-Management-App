@@ -7,8 +7,8 @@ import { Schedules } from 'src/modal/client-schedules';
 export class ClientSchedulesService {
 
   schedules: Schedules[] = [
-    new Schedules(1, 'Nigel Uno', 'The Ones Organization', 'The #1 Project', 'May 20, 2023'),
-    new Schedules(2, 'John Onsen', 'The Onsen Company', 'The #1 Project', 'June 10, 2023'),
+    new Schedules(1, 'Nigel Uno', 'The Ones Organization', 'The #1 Project', '2023-05-20 12:30:00'),
+    new Schedules(2, 'John Onsen', 'The Onsen Company', 'The #1 Project', '2023-05-25 10:00:00'),
   ];
 
   getSchedules() {
